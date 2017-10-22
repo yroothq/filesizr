@@ -1,13 +1,13 @@
 {
   "name": "filesizr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Filesizr is a file size validator.",
   "main": "index.js",
   "author": "YROOT",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "git+https://github.com/yroothq/filesizr.git"
+    "type": "git",
+    "url": "git+https://github.com/yroothq/filesizr.git"
   },
   "bugs": {
     "url": "https://github.com/yroothq/filesizr/issues"
