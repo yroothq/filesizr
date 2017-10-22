@@ -1,0 +1,41 @@
+{
+  "name": "filesizr",
+  "version": "0.1.0",
+  "description": "Filesizr is a file size validator.",
+  "main": "index.js",
+  "author": "YROOT",
+  "license": "MIT",
+  "bin": {
+    "filesizr": "index.js"
+  },
+  "dependencies": {
+    "bytes": "^3.0.0",
+    "commander": "^2.11.0",
+    "glob": "^7.1.2",
+    "gzip-size": "^4.0.0",
+    "prettycli": "^1.4.3",
+    "read-pkg-up": "^2.0.0"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "filesizr": [
+    {
+      "path": "index.js",
+      "maxSize": "100 B",
+      "compressed": false
+    },
+    {
+      "path": "src/*.js",
+      "maxSize": "3 kB"
+    },
+    {
+      "path": "index.js",
+      "maxSize": "100 B",
+      "compressed": true
+    }
+  ]
+}
