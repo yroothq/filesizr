@@ -1,6 +1,6 @@
 {
   "name": "filesizr",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Filesizr is a file size validator.",
   "main": "index.js",
   "author": "YROOT",
