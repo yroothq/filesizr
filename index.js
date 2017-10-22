@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var reporter = require('./src/reporter')
+var reportr = require('./src/reportr')
 var files = require('./src/files')
 
-reporter(files);
+reportr(files);
